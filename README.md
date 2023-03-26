@@ -1,6 +1,7 @@
 # Reproducible steps for using Yandex Cloud Message Queue
 
 Querying is done with AWS CLI. 
+Yandex Cloud offers two types of queues: standard and FIFO. In standard queues messages are read in random order, while in FIFO messages are read in order they are received. 
 
 ## Configuring user
 1. Create user with the role "editor" and static access key for this user with Yandex Cloud.
